@@ -1,5 +1,22 @@
 fun main() {
 
+    println("Informe o numero de inicio:")
+    val inicio: Int = readln().toInt()
+
+    println("Informe o numero final:")
+    val final: Int = readln().toInt()
+
+    println("Intervalo:")
+    val intervalo: Int = readln().toInt()
+
+    for (i in inicio downTo final step intervalo) {
+
+        print(" $i ")
+    }
+
+
+
+
     // Loop de 1 a 5
     for (i in 1..5) {
         print(i)
